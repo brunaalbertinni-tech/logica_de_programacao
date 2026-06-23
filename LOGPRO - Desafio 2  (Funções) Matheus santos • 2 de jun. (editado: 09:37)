@@ -1,0 +1,109 @@
+1. Login
+
+let usuario = &quot;bru.cardoso07&quot;
+let senha = &quot;546&quot;
+let login = prompt(&quot;Digite seu usuário: &quot;)
+let digitesenha = Number(prompt(&quot;Digite sua senha: &quot;))
+function fzr_login(login, digitesenha) {
+if (usuario === &quot;bru.cardoso07&quot; &amp;&amp; senha === &quot;546&quot;) {
+console.log (&quot;Usuário acessado&quot;)
+console.log (&quot;Login:bru.cardoso07&quot;)
+console.log (&quot;Senha: 546&quot;)
+}else{
+console.log(&quot;Usuário inválido&quot;)
+}
+}
+fzr_login(login, digitesenha)
+
+Bruna
+Isabelly
+Gabriela
+Miguel Noboru
+Breno
+Moisés
+Lucas
+Nicolas
+Felipe
+Giovanna
+
+2. Usuário
+
+let usuario = prompt(&quot;Digite seu usuário: &quot;)
+let senha = prompt(&quot;Digite sua senha: &quot;)
+switch (usuario) {
+case &quot;bru.cardoso&quot;:
+if (senha === &quot;bru30&quot; &amp;&amp; usuario === &quot;bru.cardoso&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;Isa.Q&quot;:
+if (senha === &quot;isa321&quot; &amp;&amp; usuario === &quot;Isa.Q&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;Gabi.Trind&quot;:
+if (senha === &quot;gabi77&quot; &amp;&amp; usuario === &quot;Gabi.Trind&quot;) {
+console.log(&quot;Acesso concedido&quot;); }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;Miguel.Noboru&quot;:
+if (senha === &quot;mn99&quot; &amp;&amp; usuario === &quot;Miguel.Noboru&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;brenin&quot;:
+if (senha === &quot;breno45&quot; &amp;&amp; usuario === brenin) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;Moisésss.iii&quot;:
+if (senha === &quot;moi88&quot; &amp;&amp; usuario === &quot;Moisésss.iii&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;lucais&quot;:
+if (senha === &quot;lucas00 &quot; &amp;&amp; usuario === lucais) {
+console.log(&quot;Acesso concedido&quot;)}
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;Nicolas.nicolas&quot;:
+if (senha === &quot;nicolas123&quot; &amp;&amp; usuario === &quot;Nicolas.nicolas&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+
+break;
+
+case &quot;felipe.ss&quot;:
+if (senha === &quot;fe55&quot; &amp;&amp; usuario === &quot;felipe.ss&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+case &quot;gio.pereira&quot;:
+if (senha === &quot;gigi&quot; &amp;&amp; usuario === &quot;gio.pereira&quot;) {
+console.log(&quot;Acesso concedido&quot;) }
+else {
+console.log(&quot;Login ou Senha incorreto&quot;) }
+break;
+
+default:
+console.log(&quot;Usuário não encontrado&quot;);
+break;
+}
