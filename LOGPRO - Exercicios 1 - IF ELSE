@@ -1,0 +1,65 @@
+let nome = prompt(&quot;Escreva seu nome: &quot;)
+console.log(&quot;Bem vindo&quot;,nome)
+let idade = Number(prompt(&quot;Quantos anos você tem? &quot;))
+if (idade &gt;= 18){
+console.log(&quot;Após a verificação de idade foi constatado que você é de maior&quot;)}
+else{
+console.log(&quot;Após a verificação de idade foi constatado que você é de menor&quot;)}
+
+let num1 = Number(prompt(&quot;Digite um número: &quot;))
+let num2 = Number(prompt(&quot;Digite um número: &quot;))
+if (num1 &gt; num2){
+console.log (&quot;O número 1 é maior que o número 2&quot;)}
+else if (num1 &lt; num2){
+console.log (&quot;O número 2 é maior que o número 1&quot;)}
+else {
+console.log (&quot;Os valores são iguais&quot;)}
+
+let idade = Number(prompt(&quot;Qual a sua idade? &quot;))
+console.log (&quot;Responda somente com sim ou não&quot;)
+let temCarteira = prompt(&quot;Voê tem habilitação? (sim/não)&quot;)
+if (idade &gt; 18 &amp;&amp; temCarteira === &quot;sim&quot;) {
+
+console.log (&quot;Você definitivamente pode dirigir&quot;)}
+else if (idade &lt; 18 &amp;&amp; temCarteira === &quot;sim&quot;) {
+console.log(&quot;Que loucura é essa? Mesmo sendo menor você tem
+carteira?!&quot;)}
+else{
+console.log(&quot;Sinto muito, mas você ainda não pode dirigir&quot;)
+}
+
+let usuario= prompt(&quot;Digite o seu usuário: &quot;)
+let senha = prompt(&quot;Digite a sua senha: &quot;)
+if (usuario === &quot;Bruna&quot; &amp;&amp; senha === &quot;1234&quot;) {
+console.log (&quot;Você entrou ��&quot;)}
+else if (usuario === &quot;Bruna&quot; &amp;&amp; senha !== &quot;1234&quot;) {
+console.log(&quot;Ops!Sua senha está está errada ��&quot;)}
+else if (usuario !== &quot;Bruna&quot; &amp;&amp; senha === &quot;1234&quot;) {
+console.log(&quot;Ops!Seu usuário está errado ��&quot;)}
+else{
+console.log(&quot;Usuário e senha incorretos ��&quot;)
+}
+
+let number = Number(prompt(&quot;Escreva um número na qual vc quer saber a
+tábuada: &quot;))
+let n1 = number * 1
+console.log(number, &quot; x 1 =&quot;, n1)
+let n2 = number * 2
+
+console.log(number, &quot;x 2 =&quot;, n2)
+let n3 = number * 3
+console.log(number, &quot;x 3 =&quot;, n3)
+let n4 = number * 4
+console.log(number, &quot;x 4 =&quot;, n4)
+let n5 = number * 5
+console.log(number, &quot;x 5 =&quot;, n5)
+let n6 = number * 6
+console.log(number, &quot;x 6 =&quot;, n6)
+let n7 = number * 7
+console.log(number, &quot;x 7 =&quot;, n7)
+let n8 = number * 8
+console.log(number, &quot;x 8 =&quot;, n8)
+let n9 = number * 9
+console.log(number, &quot;x 9 =&quot;, n9)
+let n10 = number * 10
+console.log(number, &quot;x 10 =&quot;, n10)
