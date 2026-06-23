@@ -1,0 +1,121 @@
+Function
+let num1 = Number(prompt(&quot;Escolha um número: &quot;))
+let num2 = Number(prompt(&quot;Escolha outro número: &quot;))
+console.log(&quot;Escolha um operador básico e descubra o resultado&quot;)
+let operador = prompt(&quot;Qual operador: &quot;)
+
+function soma(){
+console.log (num1 + num2)
+}
+
+function subtracao(){
+console.log (num1 - num2)
+}
+
+function multi(){
+console.log (num1 * num2)
+}
+
+function divisao(){
+console.log (num1 / num2)
+}
+switch (operador) {
+case &quot;soma&quot;:
+console.log(num1 + num2)
+break
+
+case &quot;subtracao&quot;:
+
+console.log(num1 - num2)
+break
+
+case &quot;multi&quot;:
+console.log(num1 * num2)
+break
+
+case &quot;divisao&quot;:
+console.log(num1 / num2)
+break
+
+case &quot;+&quot;:
+console.log(num1 + num2)
+break
+
+case &quot;-&quot;:
+console.log(num1 - num2)
+break
+
+case &quot;*&quot;:
+console.log(num1 * num2)
+break
+
+case &quot;/&quot;:
+console.log(num1 / num2)
+break
+
+default:
+console.log(&quot;Operação inválida&quot;)}
+
+Return
+
+function div(a,b){
+return a / b
+}
+console.log (div(60,10))
+
+function soma(a,b){
+return a + b
+}
+console.log (soma(60,10))
+
+function multi(a,b){
+return a * b
+}
+console.log (multi(60,10))
+
+function sub(a,b){
+return a - b
+}
+console.log (sub(60,10))
+
+Código 1
+let categoria
+
+let idade
+const nome = &quot;Fernanda&quot;
+idade = 27
+if (idade &gt;= 60){
+categoria = &quot;Idosa&quot;
+} else if (idade &gt; 18 &amp;&amp; idade &lt; 60){
+categoria = &quot;adulta&quot;
+} else if (idade &gt;= 12 &amp;&amp; idade &lt;= 18){
+categoria = &quot;adolescente&quot;
+}else{
+categoria = &quot;Criança&quot;
+
+}
+console.log (&quot;Usuário&quot;, nome)
+console.log (&quot;Idade final&quot;, idade)
+console.log (&quot;Categoria&quot;, categoria)
+
+Código 2
+let idade = Number(prompt(&quot;Qual a sua idade? &quot;))
+if (idade &gt;= 70){
+console.log(&quot;Facultativo&quot;)
+} else if (idade &gt;= 16 &amp;&amp; idade &lt; 18){
+console.log(&quot;Facultativo&quot;)
+} else if (idade &lt;= 15){
+console.log(&quot;Não vota&quot;)
+}else{
+console.log(&quot;Voto obrigatório&quot;)
+
+}
+
+Código 3
+let num = Number(prompt(&quot;Digite um número: &quot;))
+if (num &lt; 0){
+console.log (&quot;Negativo&quot;)
+}else if (num = 0){
+console.log (&quot;Zero&quot;)
+} else
+console.log (&quot;Positivo&quot;)}
