@@ -1,0 +1,88 @@
+console.log(&quot;1- Windows&quot;)
+console.log(&quot;2- Linux&quot;)
+let so = Number(prompt(&quot;Digite a opção: &quot;))
+
+if(so === 1){
+console.log (&quot;Comandos Windows&quot;)
+
+let opcao = prompt(&quot;Digite o comando CMD:&quot;)
+switch (opcao){
+case &quot;cd&quot;:
+console.log(&quot; O comando CD serve para entrar no diretório&quot;)
+break
+case &quot;cd..&quot;:
+console.log(&quot;O comando cd.. serve para voltar um diretório&quot;)
+break
+case &quot;mkdir&quot;:
+console.log(&quot;O comando mkdir serve para criar um diretório&quot;)
+break
+case &quot;rmdir&quot;:
+console.log(&quot;O comando rmdir serve para deletar um diretório&quot;)
+break
+case &quot;dir&quot;:
+console.log(&quot;O comando dir serve para listar tudo que tem dentro de um
+diretório&quot;)
+break
+case &quot;cls&quot;:
+console.log(&quot;O comando cls serve para apagar tudo&quot;)
+break
+case &quot;color&quot;:
+
+console.log(&quot;O comando color serve para mudar as cores do CMD&quot;)
+break
+case &quot;echo&quot;:
+console.log(&quot;O comando echo serve para criar um arquivo&quot;)
+break
+case &quot;del&quot;:
+console.log(&quot;O comando del serve para deletar um arquivo&quot;)
+break
+case &quot;move&quot;:
+console.log(&quot;O comando move serve para mover um arquivo&quot;)
+break
+default:
+console.log(&quot;Comando não reconhecido&quot;)
+}
+
+}else if (so === 2){
+console.log(&quot;Comandos Linux&quot;)
+let opcao1 = prompt(&quot;Digite os comandos do Linux:&quot;)
+switch (opcao1){
+case &quot;ls&quot;:
+console.log(&quot; O comando ls serve para listar os arquivos&quot;)
+break
+case &quot;cd&quot;:
+console.log(&quot;O comando cd serve para entrar em um diretório&quot;)
+break
+case &quot;pwd&quot;:
+console.log(&quot;O comando pwd serve para mostrar onde você está&quot;)
+break
+case &quot;mkdir&quot;:
+
+console.log(&quot;O comando mkdir serve para criar um diretório&quot;)
+break
+case &quot;rm&quot;:
+console.log(&quot;O comando rm serve para remover arquivos&quot;)
+break
+case &quot;cp&quot;:
+console.log(&quot;O comando cp serve para copiar arquivos&quot;)
+break
+case &quot;mv&quot;:
+console.log(&quot;O comando mv serve para mover ou renomear arquivos&quot;)
+break
+case &quot;cat&quot;:
+console.log(&quot;O comando cat serve para mostrar um conteúdo do
+arquivo&quot;)
+break
+case &quot;clear&quot;:
+console.log(&quot;O comando clear serve para limpar um terminal&quot;)
+break
+case &quot;grep&quot;:
+console.log(&quot;O comando grep serve para buscar textos dentro de
+arquivos&quot;)
+break
+default:
+console.log(&quot;Comando não reconhecido&quot;)
+}
+}else {
+console.log(&quot;Opção inválida&quot;)
+}
