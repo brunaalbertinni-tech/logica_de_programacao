@@ -1,0 +1,201 @@
+let pontos = 0
+console.log(&quot;A) Branca de Neve&quot;)
+console.log(&quot;B) Merida&quot;)
+console.log(&quot;C) Bela&quot;)
+console.log(&quot;D) Mulan&quot;)
+
+let r1 = prompt(&quot;Qual princesa gosta de ler? &quot;)
+
+switch (r1) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+case &quot;Bela&quot;:
+case &quot;bela&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+
+console.log(&quot;A) Cinderela&quot;)
+console.log(&quot;B) Ariel&quot;)
+console.log(&quot;C) Bela&quot;)
+console.log(&quot;D) aurora&quot;)
+let r2 = prompt(&quot;Qual princesa perde o sapatinho de cristal? &quot;)
+switch (r2) {
+case &quot;A&quot;:
+
+case &quot;a&quot;:
+case &quot;Cinderela&quot;:
+case &quot;cinderela&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+console.log(&quot;A) Moana&quot;)
+console.log(&quot;B) Ariel&quot;)
+console.log(&quot;C) Elsa&quot;)
+console.log(&quot;D) Rapunzel&quot;)
+let r3 = prompt(&quot;Qual princesa se tornou uma semideusa? &quot;)
+switch (r3) {
+case &quot;A&quot;:
+case &quot;a&quot;:
+case &quot;Moana&quot;:
+case &quot;moana&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+
+console.log(&quot;A) Merida &quot;)
+console.log(&quot;B) Rapunzel&quot;)
+console.log(&quot;C) Pocahontas&quot;)
+console.log(&quot;D) Mulan&quot;)
+let r4 = prompt(&quot;Qual princesa ficou presa em uma torre por 18 anos? &quot;)
+switch (r4) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+case &quot;Rapunzel&quot;:
+case &quot;rapunzel&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+console.log(&quot;A) Elsa&quot;)
+console.log(&quot;B) Branca de Neve&quot;)
+console.log(&quot;C) Tiana&quot;)
+console.log(&quot;D) Moana&quot;)
+
+let r5 = prompt(&quot;Qual princesa tem poderes de gelo? &quot;)
+
+switch (r5) {
+case &quot;A&quot;:
+case &quot;a&quot;:
+case &quot;Elsa&quot;:
+
+case &quot;elsa&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+
+console.log(&quot;A) Moana&quot;)
+console.log(&quot;B) Mulan&quot;)
+console.log(&quot;C) Elsa&quot;)
+console.log(&quot;D) Tiana&quot;)
+
+let r6 = prompt(&quot;Qual princesa é guerreira chinesa? &quot;)
+
+switch (r6) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+case &quot;Mulan&quot;:
+case &quot;mulan&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+
+}
+
+console.log(&quot;A) Ariel&quot;)
+console.log(&quot;B) Pocahontas&quot;)
+console.log(&quot;C) Rapunzel&quot;)
+console.log(&quot;D) Tiana&quot;)
+
+let r7 = prompt(&quot;Qual princesa é filha do chefe indígena? &quot;)
+
+switch (r7) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+case &quot;Pocahontas&quot;:
+case &quot;pocahontas&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+console.log(&quot;A) Ariel&quot;)
+console.log(&quot;B) Branca de Neve&quot;)
+console.log(&quot;C) Elsa&quot;)
+console.log(&quot;D) Rapunzel&quot;)
+
+let r8 = prompt(&quot;Qual princesa é a mais antiga da Disney? &quot;)
+
+switch (r8) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+case &quot;Branca de Neve&quot;:
+case &quot;branca de neve&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+console.log(&quot;Pontos:&quot;, pontos)
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+console.log(&quot;A) Elsa&quot;)
+console.log(&quot;B) Rapunzel&quot;)
+console.log(&quot;C) Moana&quot;)
+console.log(&quot;D) Merida&quot;)
+
+let r9 = prompt(&quot;Qual princesa é da Escócia e arqueira?&quot;)
+
+switch (r9) {
+case &quot;D&quot;:
+case &quot;d&quot;:
+case &quot;Merida&quot;:
+case &quot;merida&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+console.log(&quot;A) Ariel&quot;)
+console.log(&quot;B) Rapunzel&quot;)
+console.log(&quot;C) Jasmine&quot;)
+console.log(&quot;D) Mulan&quot;)
+
+let r10 = prompt(&quot;Qual princesa é do filme Aladdin?&quot;)
+
+switch (r10) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+case &quot;Jasmine&quot;:
+case &quot;jasmine&quot;:
+console.log(&quot;Correta&quot;)
+pontos = pontos + 1
+break
+
+default:
+console.log(&quot;Errada&quot;)
+}
+console.log(&quot;Pontos finais:&quot;, pontos)
