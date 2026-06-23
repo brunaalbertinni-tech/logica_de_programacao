@@ -1,0 +1,275 @@
+let acertos = 0;
+let erros = 0;
+
+// Pergunta 1
+let r1 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQual é a capital do
+Brasil?\n0-Rio de Janeiro\n1-Brasília\n2-São Paulo\n3-Salvador\n\n\nR:&quot;));
+if (r1 === 1) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 1 - Brasília&quot;);
+erros++;
+}
+
+// Pergunta 2
+let r2 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQuantos planetas
+existem no sistema solar?\n0-7\n1-8\n2-9\n3-10\n\n\nR:&quot;));
+if (r2 === 1) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 1 - 8&quot;);
+erros++;
+}
+
+// Pergunta 3
+let r3 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQuem pintou a
+Mona Lisa?\n0-Van Gogh\n1-Picasso\n2-Leonardo da Vinci\n3-
+Michelangelo\n\n\nR:&quot;));
+if (r3 === 2) {
+
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 2 - Leonardo da Vinci&quot;);
+erros++;
+}
+
+// Pergunta 4
+let r4 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQual é o maior
+oceano?\n0-Atlântico\n1-Índico\n2-Ártico\n3-Pacífico\n\n\nR:&quot;));
+if (r4 === 3) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 3 - Pacífico&quot;);
+erros++;
+}
+
+// Pergunta 5
+let r5 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQual é o país do
+futebol?\n0-Brasil\n1-Argentina\n2-Espanha\n3-França\n\n\nR:&quot;));
+if (r5 === 0) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 0 - Brasil&quot;);
+erros++;
+}
+
+// Pergunta 6
+
+let r6 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQuanto é 5 x 5?\n0-
+20\n1-15\n2-25\n3-30\n\n\nR:&quot;));
+if (r6 === 2) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 2 - 25&quot;);
+erros++;
+}
+
+// Pergunta 7
+let r7 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQual gás
+respiramos?\n0-Oxigênio\n1-Hidrogênio\n2-Gás Carbônico\n3-
+Nitrogênio\n\n\nR:&quot;));
+if (r7 === 0) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 0 - Oxigênio&quot;);
+erros++;
+}
+
+// Pergunta 8
+let r8 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQual é o maior
+animal do mundo?\n0-Elefante\n1-Baleia Azul\n2-Tubarão\n3-Girafa\n\n\nR:&quot;));
+if (r8 === 1) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 1 - Baleia Azul&quot;);
+
+erros++;
+}
+
+// Pergunta 9
+let r9 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQuantos dias tem
+um ano?\n0-365\n1-360\n2-300\n3-366\n\n\nR:&quot;));
+if (r9 === 0) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 0 - 365&quot;);
+erros++;
+}
+
+// Pergunta 10
+let r10 = parseInt(prompt(&quot;Digite o NÚMERO da resposta\n\nQual é a cor do
+sol?\n0-Azul\n1-Verde\n2-Amarelo\n3-Roxo\n\n\nR: &quot;));
+if (r10 === 2) {
+console.log(&quot;Acertou!&quot;);
+acertos++;
+} else {
+console.log(&quot;Errou! Resposta correta: 2 - Amarelo&quot;);
+erros++;
+}
+
+// Resultado final
+console.log(&quot;Total de acertos: &quot; + acertos);
+console.log(&quot;Total de erros: &quot; + erros);
+
+let acertos = 0;
+let erros = 0;
+
+console.log(&quot;Digite apenas a LETRA da alternativa correta (A, B, C ou D)\n&quot;);
+
+// 1
+let r1 = prompt(&quot;Qual cria variável?\nA-if\nB-let\nC-for\nD-else\n\nR:&quot;);
+if (r1 === &quot;B&quot; || r1 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - let&quot;); erros++; }
+
+// 2
+let r2 = prompt(&quot;Qual mostra no console?\nA-console.log\nB-prompt\nC-
+alert\nD-if\n\nR:&quot;);
+if (r2 === &quot;A&quot; || r2 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - console.log&quot;); erros++; }
+
+// 3
+let r3 = prompt(&quot;O que o &#39;if&#39; faz?\nA-Repetir\nB-Comparar\nC-Decidir\nD-
+Apagar\n\nR:&quot;);
+if (r3 === &quot;C&quot; || r3 === &quot;c&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: C - Decidir&quot;); erros++; }
+
+// 4
+let r4 = prompt(&quot;O que o &#39;else&#39; faz?\nA-Outra opção\nB-Somar\nC-Repetir\nD-
+Criar variável\n\nR:&quot;);
+if (r4 === &quot;A&quot; || r4 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+
+else { console.log(&quot;Errou! Resposta correta: A - Outra opção&quot;); erros++; }
+
+// 5
+let r5 = prompt(&quot;Para que serve o prompt?\nA-Mostrar\nB-Pedir resposta\nC-
+Repetir\nD-Contar\n\nR:&quot;);
+if (r5 === &quot;B&quot; || r5 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - Pedir resposta&quot;); erros++; }
+
+// 6
+let r6 = prompt(&quot;Qual é um tipo de dado número?\nA-string\nB-boolean\nC-
+number\nD-array\n\nR:&quot;);
+if (r6 === &quot;C&quot; || r6 === &quot;c&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: C - number&quot;); erros++; }
+
+// 7
+let r7 = prompt(&quot;Qual operador é de comparação?\nA-+\nB-=\nC-===\nD-
+*\n\nR:&quot;);
+if (r7 === &quot;C&quot; || r7 === &quot;c&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: C - ===&quot;); erros++; }
+
+// 8
+let r8 = prompt(&quot;Qual é usado para repetir?\nA-if\nB-for\nC-let\nD-else\n\nR:&quot;);
+if (r8 === &quot;B&quot; || r8 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - for&quot;); erros++; }
+
+// 9
+let r9 = prompt(&quot;Qual guarda vários valores?\nA-number\nB-string\nC-array\nD-
+boolean\n\nR:&quot;);
+if (r9 === &quot;C&quot; || r9 === &quot;c&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: C - array&quot;); erros++; }
+
+// 10
+let r10 = prompt(&quot;Qual valor é verdadeiro?\nA-true\nB-false\nC-null\nD-
+0\n\nR:&quot;);
+if (r10 === &quot;A&quot; || r10 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - true&quot;); erros++; }
+
+// Resultado
+let nota = acertos;
+
+console.log(&quot;\nResultado final:&quot;);
+console.log(&quot;Acertos: &quot; + acertos);
+console.log(&quot;Erros: &quot; + erros);
+console.log(&quot;Nota: &quot; + nota + &quot;/10&quot;);
+
+if (nota &gt;= 7) console.log(&quot;Parabéns! Você manda bem em programação!&quot;);
+else if (nota &gt;= 5) console.log(&quot;Tá indo bem, mas precisa treinar!&quot;);
+else console.log(&quot;Precisa estudar mais!&quot;);
+
+let acertos = 0;
+let erros = 0;
+
+console.log(&quot;Digite apenas a LETRA da alternativa correta (A, B, C ou D)\n&quot;);
+
+// 1
+let r1 = prompt(&quot;Qual o nome do príncipe da Cinderela?\nA-Henry\nB-
+Charming\nC-Philip\nD-Eric\n\nR:&quot;);
+if (r1 === &quot;B&quot; || r1 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - Charming&quot;); erros++; }
+
+// 2
+let r2 = prompt(&quot;Qual o nome do vilão em A Pequena Sereia?\nA-Malévola\nB-
+Ursula\nC-Gothel\nD-Jafar\n\nR:&quot;);
+if (r2 === &quot;B&quot; || r2 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - Ursula&quot;); erros++; }
+
+// 3
+let r3 = prompt(&quot;Qual princesa NÃO é considerada oficial da Disney?\nA-
+Elsa\nB-Moana\nC-Merida\nD-Aurora\n\nR:&quot;);
+if (r3 === &quot;A&quot; || r3 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - Elsa&quot;); erros++; }
+
+// 4
+let r4 = prompt(&quot;Qual é o nome do pai da Ariel?\nA-Tritão\nB-Zeus\nC-
+Poseidon\nD-Hércules\n\nR:&quot;);
+if (r4 === &quot;A&quot; || r4 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - Tritão&quot;); erros++; }
+
+// 5
+let r5 = prompt(&quot;Qual princesa abre um restaurante?\nA-Tiana\nB-Bela\nC-
+Jasmine\nD-Mulan\n\nR:&quot;);
+if (r5 === &quot;A&quot; || r5 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - Tiana&quot;); erros++; }
+
+// 6
+let r6 = prompt(&quot;Qual o nome do cavalo da Mulan?\nA-Maximus\nB-Khan\nC-
+Sven\nD-Phil\n\nR:&quot;);
+if (r6 === &quot;B&quot; || r6 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - Khan&quot;); erros++; }
+
+// 7
+let r7 = prompt(&quot;Qual princesa vive na Escócia?\nA-Merida\nB-Aurora\nC-
+Elsa\nD-Moana\n\nR:&quot;);
+if (r7 === &quot;A&quot; || r7 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - Merida&quot;); erros++; }
+
+// 8
+let r8 = prompt(&quot;Qual o nome da madrasta da Branca de Neve?\nA-Rainha
+Má\nB-Malévola\nC-Ursula\nD-Gothel\n\nR:&quot;);
+if (r8 === &quot;A&quot; || r8 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - Rainha Má&quot;); erros++; }
+
+// 9
+let r9 = prompt(&quot;Qual princesa tem um tigre de estimação?\nA-Jasmine\nB-
+Ariel\nC-Bela\nD-Tiana\n\nR:&quot;);
+if (r9 === &quot;A&quot; || r9 === &quot;a&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: A - Jasmine&quot;); erros++; }
+
+// 10
+let r10 = prompt(&quot;Qual princesa foi inspirada na China antiga?\nA-Merida\nB-
+Mulan\nC-Moana\nD-Rapunzel\n\nR:&quot;);
+if (r10 === &quot;B&quot; || r10 === &quot;b&quot;) { console.log(&quot;Acertou!&quot;); acertos++; }
+else { console.log(&quot;Errou! Resposta correta: B - Mulan&quot;); erros++; }
+
+// Resultado
+
+let nota = acertos;
+
+console.log(&quot;\nResultado final:&quot;);
+console.log(&quot;Acertos: &quot; + acertos);
+console.log(&quot;Erros: &quot; + erros);
+console.log(&quot;Nota: &quot; + nota + &quot;/10&quot;);
+
+if (nota &gt;= 7) console.log(&quot;Parabéns! Você manda muito bem em Disney!&quot;);
+else if (nota &gt;= 5) console.log(&quot;Foi bem, mas pode melhorar!&quot;);
+else console.log(&quot;Precisa maratonar Disney!&quot;);
