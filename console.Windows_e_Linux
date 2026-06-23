@@ -1,0 +1,83 @@
+console.log("1- Windows")
+console.log("2- Linux")
+let so = Number(prompt("Digite a opção: "))
+
+if(so === 1){
+    console.log ("Comandos Windows")
+    
+    let opcao = prompt("Digite o comando CMD:")
+    switch (opcao){
+        case "cd":
+            console.log(" O comando CD serve para entrar no diretório")
+            break
+            case "cd..":
+            console.log("O comando cd.. serve para voltar um diretório")
+            break
+            case "mkdir":
+            console.log("O comando mkdir serve para criar um diretório")
+            break
+            case "rmdir":
+            console.log("O comando rmdir serve para deletar um diretório")
+            break
+            case "dir":
+            console.log("O comando dir serve para listar tudo que tem dentro de um diretório")
+            break
+            case "cls":
+            console.log("O comando cls serve para apagar tudo")
+            break
+            case "color":
+                console.log("O comando color serve para mudar as cores do CMD")
+                break
+            case "echo":
+            console.log("O comando echo serve para criar um arquivo")
+            break
+            case "del":
+            console.log("O comando del serve para deletar um arquivo")
+            break
+            case "move":
+            console.log("O comando move serve para mover um arquivo")
+            break
+            default:
+        console.log("Comando não reconhecido")
+    }
+    
+}else if (so === 2){
+    console.log("Comandos Linux")
+    let opcao1 = prompt("Digite os comandos do Linux:")
+    switch (opcao1){
+        case "ls":
+            console.log(" O comando ls serve para listar os arquivos")
+            break
+            case "cd":
+            console.log("O comando cd serve para entrar em um diretório")
+            break
+             case "pwd":
+            console.log("O comando pwd serve para mostrar onde você está")
+            break
+             case "mkdir":
+            console.log("O comando mkdir serve para criar um diretório")
+            break
+            case "rm":
+            console.log("O comando rm serve para remover arquivos")
+            break
+            case "cp":
+            console.log("O comando cp serve para copiar arquivos")
+            break
+            case "mv":
+            console.log("O comando mv serve para mover ou renomear arquivos")
+            break
+            case "cat":
+            console.log("O comando cat serve para mostrar um conteúdo do arquivo")
+            break
+            case "clear":
+            console.log("O comando clear serve para limpar um terminal")
+            break
+            case "grep":
+            console.log("O comando grep serve para buscar textos dentro de arquivos")
+            break
+             default:
+        console.log("Comando não reconhecido")
+}
+}else {
+    console.log("Opção inválida")
+}
