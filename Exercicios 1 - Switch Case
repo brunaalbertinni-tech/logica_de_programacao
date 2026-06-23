@@ -1,0 +1,106 @@
+Exercício 1
+let idioma = prompt(&quot; Qual seu idioma: &quot;)
+switch (idioma){
+case (&quot;português&quot;):
+console.log(&quot;Olá, tudo bem?&quot;)
+break;
+
+case (&quot;inglês&quot;):
+console.log(&quot;Hello, how are you?&quot;)
+break;
+
+case (&quot;espanhol&quot;):
+console.log(&quot;Hola, como estás&quot;)
+break;
+
+case (&quot;francês&quot;):
+console.log(&quot;Bonjour, Comment ça va ? &quot;)
+break;
+
+default:
+console.log(&quot;Olá em português porque não conheço sua língua&quot;)
+}
+
+Exercício 2
+let dia= prompt(&quot; Qual o dia da semana em número (Ex:1 domingo): &quot;)
+switch (dia){
+case (&quot;1&quot;):
+console.log(&quot;Nossa hoje é domingo, Graças a Deus é final de semana&quot;)
+
+break;
+
+case (&quot;2&quot;):
+console.log(&quot;Nossa hoje é segunda&quot;)
+break;
+
+case (&quot;3&quot;):
+console.log(&quot;Nossa hoje é terça&quot;)
+break;
+
+case (&quot;4&quot;):
+console.log(&quot;Nossa hoje é quarta&quot;)
+break;
+
+case (&quot;5&quot;):
+console.log(&quot;Nossa hoje é quinta&quot;)
+break;
+
+case (&quot;6&quot;):
+console.log(&quot;Nossa hoje é sexta, se for a noite é só relaxar&quot;)
+break;
+
+case (&quot;7&quot;):
+console.log(&quot;Nossa hoje é sábado, dia de sair e se divertir&quot;)
+break;
+
+default:
+console.log(&quot;Moramos no mesmo planeta&quot;)
+}
+
+Exercício 3
+let transporte = prompt(&quot;Digite um número (1-5):&quot;)
+
+switch (transporte) {
+case “1”:
+console.log(&quot;Carro&quot;)
+break
+
+case “2”:
+console.log(&quot;Bicicleta&quot;)
+break
+
+case “3”:
+console.log(&quot;Ônibus&quot;)
+break
+
+case “4”:
+console.log(&quot;Moto&quot;)
+break
+
+case “5”:
+console.log(&quot;Trem&quot;)
+break
+
+default:
+console.log(&quot;Transporte não identificado&quot;)
+}
+
+Exercício 4
+let urgencia = prompt(&quot;Digite o nível de urgência (1-3): &quot;)
+
+switch (urgencia) {
+case &quot;1&quot;:
+console.log(&quot;Baixa��
+
+&quot;)
+
+break;
+
+case &quot;2&quot;:
+console.log(&quot;Média��
+
+&quot;)
+
+break;
+
+case &quot;3&quot;:
