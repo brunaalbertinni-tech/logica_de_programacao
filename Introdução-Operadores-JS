@@ -1,0 +1,60 @@
+Javascript e Operadores
+
+1. let valor1 = 40
+2. let valor2 = 10
+3. let resultado = valor1 + valor2
+4. console.log(resultado)
+5. let res = valor1 - valor2
+6. console.log(res)
+7. let multiplicacao = valor1 * valor2
+8. console.log(multiplicacao)
+9. let divisao = valor1 / valor2
+10. console.log(divisao)
+11. let valor3 = 10
+12. let valor4 = &quot;10&quot;
+13. let igual = valor3 == valor4
+14. console.log(igual)
+15. let extritamenteigual = valor3 === valor4
+16. console.log(extritamenteigual)
+17. let maior = valor1 &gt; valor2
+18. console.log(maior)
+19. let menor = valor1 &lt; valor2
+20. console.log(menor)
+21. let maiorouigual = valor1 &gt;= valor2
+22. console.log(maiorouigual)
+23. let menorouigual = valor1 &lt;= valor2
+24. console.log(menorouigual)
+25. let valor5 = 30
+26. valor5 ++
+27. console.log(valor5)
+28. let valor6 = 30
+29. valor6 --
+30. console.log(valor6)
+31. let valor7 = 30
+32. valor7 +=10
+33. console.log(valor7)
+34. let valor8 = 30
+35. valor8 -=10
+36. console.log(valor8)
+37. let diferente = valor3 != valor4
+38. console.log(diferente)
+39. let extritamentediferente = valor3 !== valor4
+40. console.log(extritamentediferente)
+
+Resultado
+1. 50
+2. 30
+3. 400
+4. 4
+5. true
+6. false
+7. true
+8. false
+9. true
+10. false
+11. 31
+12. 29
+13. 40
+14. 20
+15. false
+16. true
