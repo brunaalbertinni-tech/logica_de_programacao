@@ -1,0 +1,37 @@
+1. Usuário com if e else
+let usuario = prompt(&quot;Digite seu usuário: &quot;);
+let senha = prompt(&quot;Digite sua senha: &quot;);
+
+if (usuario === &quot;bru.cardoso&quot; &amp;&amp; senha === &quot;bru30&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;Isa.Q&quot; &amp;&amp; senha === &quot;isa321&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;Gabi.Trind&quot; &amp;&amp; senha === &quot;gabi77&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;Miguel.Noboru&quot; &amp;&amp; senha === &quot;mn99&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;brenin&quot; &amp;&amp; senha === &quot;breno45&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;Moisésss.iii&quot; &amp;&amp; senha === &quot;moi88&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;lucais&quot; &amp;&amp; senha === &quot;lucas00&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;Nicolas.nicolas&quot; &amp;&amp; senha === &quot;nicolas123&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;felipe.ss&quot; &amp;&amp; senha === &quot;fe55&quot;) {
+
+console.log(&quot;Acesso concedido&quot;);
+}
+else if (usuario === &quot;gio.pereira&quot; &amp;&amp; senha === &quot;gigi&quot;) {
+console.log(&quot;Acesso concedido&quot;);
+}
+else {
+console.log(&quot;Login ou Senha incorreto&quot;);
